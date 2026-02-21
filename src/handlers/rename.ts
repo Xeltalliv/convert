@@ -91,8 +91,8 @@ export const renameZipHandler = renameHandler("renamezip", [
     to: false,
     internal: "apk"
   },
-  CommonFormats.ZIP.builder("sb3").allowFrom()
-    .withFormat("sb3").withExt("sb3").named("Scratch 3 Project")
+//  CommonFormats.ZIP.builder("sb3").allowFrom()
+//    .withFormat("sb3").withExt("sb3").named("Scratch 3 Project")
 ]);
 /// handler for renaming text-based formats
 export const renameTxtHandler = renameHandler("renametxt", [

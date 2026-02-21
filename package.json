@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "cache:build" : "bun run buildCache.js dist/cache.json",
+    "cache:build": "bun run buildCache.js dist/cache.json",
     "preview": "vite preview",
     "docker": "bun run docker:build && bun run docker:up",
     "docker:build": "docker compose -f docker/docker-compose.yml -f docker/docker-compose.override.yml build --build-arg VITE_COMMIT_SHA=$(git rev-parse HEAD)",
@@ -34,6 +34,7 @@
     "@types/pako": "^2.0.4",
     "@types/three": "^0.182.0",
     "imagetracer": "^0.2.2",
+    "js-synthesizer": "^1.11.0",
     "jszip": "^3.10.1",
     "meyda": "^5.6.3",
     "mime": "^4.1.0",
@@ -42,6 +43,7 @@
     "pako": "^2.1.0",
     "pdftoimg-js": "^0.2.5",
     "pe-library": "^2.0.1",
+    "pyodide": "^0.29.3",
     "svg-pathdata": "^8.0.0",
     "three": "^0.182.0",
     "three-bvh-csg": "^0.0.17",
@@ -49,7 +51,6 @@
     "ts-flp": "^1.0.3",
     "vite-plugin-static-copy": "^3.1.6",
     "wavefile": "^11.0.0",
-    "woff2-encoder": "^2.0.0",
-    "js-synthesizer": "^1.11.0"
+    "woff2-encoder": "^2.0.0"
   }
 }

@@ -16,3 +16,6 @@
 [submodule "src/handlers/espeakng.js"]
 	path = src/handlers/espeakng.js
 	url = https://github.com/TheZipCreator/espeakng.js
+[submodule "src/handlers/sb3tosb2"]
+	path = src/handlers/sb3tosb2
+	url = https://github.com/RexScratch/sb3tosb2

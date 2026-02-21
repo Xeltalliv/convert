@@ -56,7 +56,15 @@ export default defineConfig({
         {
           src: "src/handlers/espeakng.js/js/espeakng.worker.data",
           dest: "js"
-        }
+        },
+        {
+          src: "node_modules/pyodide/*",
+          dest: "wasm"
+        },
+        {
+          src: "src/handlers/sb3tosb2/sb3tosb2.py",
+          dest: "wasm"
+        },
       ]
     }),
     tsconfigPaths()
